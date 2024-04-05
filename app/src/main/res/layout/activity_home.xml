@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textViewTItulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Cálculo de Desempenho "
+            android:textAlignment="center"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:ems="10"
+            android:hint="@string/nomeAluno"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextDisciplina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:ems="10"
+            android:hint="@string/nomeDisciplina"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextAtividadeUm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:ems="10"
+            android:hint="@string/notaAtividade1"
+            android:inputType="numberDecimal"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextAtividadeDois"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:ems="10"
+            android:hint="@string/notaAtividade2"
+            android:inputType="numberDecimal"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextProva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:ems="10"
+            android:hint="@string/notaProva"
+            android:inputType="numberDecimal"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextFaltas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:ems="10"
+            android:hint="@string/qtdeFaltas"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonAvaliar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="sans-serif"
+            android:text="@string/avaliarAluno"
+            android:textAlignment="center"
+            android:textColor="#D1D1D1"
+            app:rippleColor="#E029FF" />
+
+        <Button
+            android:id="@+id/buttonLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:backgroundTint="#6C0C7C"
+            android:fontFamily="sans-serif"
+            android:text="@string/limpar"
+            android:textColor="#E6E6E6"
+            app:rippleColor="#AB0EC6" />
+
+        <Button
+            android:id="@+id/buttonDeslogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:backgroundTint="#981429"
+            android:fontFamily="sans-serif"
+            android:text="@string/deslogar"
+            android:textColor="#E6E6E6"
+            app:rippleColor="#EA0628" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

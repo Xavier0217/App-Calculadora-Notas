@@ -1,0 +1,12 @@
+<resources>
+    <string name="App_name">Calculadora Xavier</string>
+    <string name="qtdeFaltas">Quantidade de faltas...</string>
+    <string name="notaProva">Nota Prova...</string>
+    <string name="notaAtividade2">Nota Atividade 2...</string>
+    <string name="notaAtividade1">Nota Atividade 1...</string>
+    <string name="nomeDisciplina">Nome da Disciplina...</string>
+    <string name="nomeAluno">Digite o nome do aluno...</string>
+    <string name="avaliarAluno">Avaliar Aluno</string>
+    <string name="limpar">Limpar</string>
+    <string name="deslogar">Deslogar</string>
+</resources>
